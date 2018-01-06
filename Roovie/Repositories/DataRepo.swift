@@ -25,7 +25,9 @@ class DataRepo{
         user.movieCollections.append(mc)*/
         
         let user = User(username: "Ik heb nog geen mogelijkheid om hier iets mee te doen")
-        
+        //realm installatie via
+        //Source: https://www.youtube.com/watch?v=yWudL99pv_8
+        //durf ik niet meer via pods te doen omdat ik denk dat het dan kapot gaat gaan
         let realm = try! Realm()
         
         try! realm.write {

@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+//Source: https://www.youtube.com/channel/UC-d1NWv5IWtIkfH47ux4dWA
 class CollectionMovieCellTableViewCell: UITableViewCell {
     @IBOutlet weak var movieImageView: UIImageView!
     @IBOutlet weak var movieTitleLabel: UILabel!

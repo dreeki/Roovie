@@ -70,6 +70,7 @@ class AllMoviesTableViewController: UITableViewController {
             if(title != ""){
                 //do API call
                 let apiString = ("https://www.omdbapi.com/?apikey=49cce24e&&t=" + title!).addingPercentEncoding(withAllowedCharacters: CharacterSet.urlQueryAllowed)
+                //Source: https://github.com/Alamofire/Alamofire
                 Alamofire.request(apiString!).responseJSON(completionHandler: { (response) in
                     print(response.response?.statusCode)
                     if response.response?.statusCode == 200{
