@@ -10,6 +10,6 @@ Error's worden voorkomen, maar er worden geen foutboodschappen getoond.
 Er hangt geen echte backend achter het programma, maar dit is ook niet echt nodig. 
 Het enige nadeel is dat bij verwisselen van toestel de data verloren zou zijn.
 
-Auto layout en size classes enkel gebruik in de detail Movie controller views.
+Auto layout en size classes enkel gebruik in de detail Movie controller views, en enkel voor iphone 8.
 Gebruik gemaakt van custom layout --> Cell voor een custom cell in de tableview.
 Extra frameworks --> Realm en Alamofire
